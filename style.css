@@ -50,11 +50,6 @@ body
 	filter: drop-shadow(0 0 50px #f00);
 	transition: 0.5s;
 }
-.box:hover div.block span 
-{
-	background: #f00;
-	filter: drop-shadow(0 0 50px #f00);
-}
 .box div.text span 
 {
 	position: absolute;
@@ -97,10 +92,7 @@ body
 	height: 60px;
 	background: #444;
 	transform: rotateX(-90deg);
-	transition: 0.5s;
-} 
-.box:hover div.text span::after 
-{
 	background: #f00;
 	filter: drop-shadow(0 0 50px #f00);
-}
+	transition: 0.5s;
+} 
